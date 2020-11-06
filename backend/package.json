@@ -2,11 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "module": "main.js",
+  "main": "./src/index.js",
+  "module": "./src/server.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
