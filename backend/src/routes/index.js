@@ -1,4 +1,5 @@
 //MASTER ROUTE INDEX
 import userRoutes from './user'
+import sessionRoutes from './session'
 
-export {userRoutes}
+export {userRoutes, sessionRoutes}
