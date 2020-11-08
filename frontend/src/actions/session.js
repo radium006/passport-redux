@@ -1,7 +1,7 @@
 import * as apiUtil from "../util/session";
-import { receiveErrors } from "./error";
+import { receiveErrors } from "./errors";
 
-export const RECIEVE_CURRENT_USER = `RECIEVE_CURRENT_USER`;
+export const RECEIVE_CURRENT_USER = "RECEIVE_CURRENT_USER";
 export const LOGOUT_CURRENT_USER = "LOGOUT_CURRENT_USER";
 
 const receiveCurrentUser = (user) => ({
